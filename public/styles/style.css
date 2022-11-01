@@ -16,28 +16,45 @@ nav {
 nav a {
   color: rgb(0, 100, 148);
 }
+#home {
+  margin: 2vw;
+}
+#images {
+  display: flex;
+  justify-content: space-around;
+}
+#images img {
+  width: 30%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+#images img:hover {
+  border-radius: 10%;
+  transition-duration: 2s, 1s;
+}
 h1 {
   font-size: 4vw;
   text-align: center;
   margin-bottom: 3vw;
-  color: rgb(5, 130, 202);
+  color: rgb(0, 166, 251);
 }
 
 h2 {
   font-size: 3vw;
-  color: rgb(5, 130, 202);
+  color: rgb(0, 166, 251);
 }
 
 h3 {
   font-size: 2.5vw;
-  color: rgb(5, 130, 202);
+  color: rgb(0, 166, 251);
 }
 
-.home {
+.intro {
   display: flex;
   flex-wrap: wrap;
 }
-.home p {
+.intro p {
   width: 100%;
 }
 article {
@@ -55,6 +72,7 @@ article {
   align-items: flex-end;
   text-align: end;
 }
+
 .navbar ul {
   display: flex;
   flex-direction: row;
@@ -68,8 +86,8 @@ a {
 }
 
 p {
-  font-size: 2vw;
-  color: rgb(0, 166, 251);
+  font-size: 1.5vw;
+  color: white;
 }
 
 .about {
