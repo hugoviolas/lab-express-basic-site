@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Anton", sans-serif;
+}
+body {
+  background-color: rgb(0, 53, 84);
+}
+nav {
+  width: 100%;
+  background-color: rgb(5, 25, 35);
+  border-bottom: 2px solid black;
+  box-shadow: 0px 5px 5px black;
+}
+nav a {
+  color: rgb(0, 100, 148);
+}
+h1 {
+  font-size: 4vw;
+  text-align: center;
+  margin-bottom: 3vw;
+  color: rgb(5, 130, 202);
+}
+
+h2 {
+  font-size: 3vw;
+  color: rgb(5, 130, 202);
+}
+
+h3 {
+  font-size: 2.5vw;
+  color: rgb(5, 130, 202);
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home p {
+  width: 100%;
+}
+article {
+  margin: 5vw 0vw;
+}
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: flex-end;
+  text-align: end;
+}
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 2vw;
+  color: rgb(0, 166, 251);
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.bio,
+.inspi {
+  width: 40%;
+  height: 20%;
+  justify-content: space-between;
+}
+.about img {
+  width: 40%;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.paint,
+.music {
+  width: 40%;
+  height: 20%;
+  justify-content: space-between;
+}
+
+.works img {
+  width: 40%;
+}
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 2vw;
+}
+#gallery img {
+  width: 40%;
+  height: 100%;
+  margin: 2vw;
+}
